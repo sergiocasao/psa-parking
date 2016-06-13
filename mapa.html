@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Ejemplo MAPA</title>
+    <!-- Agregamos las librerias base -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/raphael-min.js"></script>
+    <!-- Agregando el evento click sobre el gato -->
+    <script type="text/javascript" src="js/sotano1.js"></script>
+    <script>
+      /*var currentZoom = 2.0;
+
+      $(document).ready(function () {
+          $('#btn_ZoomIn').click(
+              function () {
+                  $('#rsr').animate({ 'zoom': currentZoom += .5 }, 'slow');
+                  if(currentZoom>1){
+                    $( '#btn_ZoomOut' ).prop( "disabled", false );
+                  }
+              })
+          $('#btn_ZoomOut').click(
+              function () {
+                  $('#rsr').animate({ 'zoom': currentZoom -= .5 }, 'slow');
+                  if(currentZoom==1){
+                    $( '#btn_ZoomOut' ).prop( "disabled", true );
+                  }
+              })
+          $('#btn_ZoomReset').click(
+              function () {
+                  currentZoom = 2.0
+                  $('#rsr').animate({ 'zoom': 2 }, 'slow');
+                  $( '#btn_ZoomOut' ).prop( "disabled", true );
+              })
+          
+          if(currentZoom==2){
+            $( '#btn_ZoomOut' ).prop( "disabled", true );
+          }
+
+      });*/
+    </script>
+  </head>
+  <body style="background-color: #FFFFFF;">
+
+    <h1>Sotano 1</h1>
+    <button id="btn_ZoomIn">Zoom in </button>
+    <button id="btn_ZoomOut">Zoom out</button>
+    <button id="btn_ZoomReset">Reset Zoom</button>
+
+    <div id="rsr" style="background-color: #FFFF;" >
+    </div>
+
+    
+
+  </body>
+</html>
